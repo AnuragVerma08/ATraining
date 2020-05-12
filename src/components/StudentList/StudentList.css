@@ -1,0 +1,58 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+table#studentlist tr:nth-child(even) {
+  background-color: #eee;
+}
+table#studentlist tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#studentlist th {
+  background-color: black;
+  color: white;
+}
+
+.studentslisttag {
+  padding-left: 10%;
+  color: black;
+  font-size: 30px;
+}
+
+.studentsinfo{
+    margin-top: 3%;
+}
+
+.studentable{
+    margin-top: 10px;
+    overflow-x: auto
+}
+
+#nostudent{
+  padding-left: 10%;
+  color: black;
+  font-size: 20px;
+}
+
+button,input,#editbutton{
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+#editbutton{
+  background-color: #4CAF50; 
+}
+input#deletebutton{
+  background-color: rgb(223, 49, 18);
+  cursor: pointer;
+}

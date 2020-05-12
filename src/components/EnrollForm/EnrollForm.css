@@ -1,0 +1,82 @@
+.enrollformtag {
+  padding-left: 10%;
+  color: black;
+  font-size: 30px;
+}
+
+#enrollment-form {
+    margin: auto;
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 3%;
+}
+
+.enrollform {
+    margin-top: 3%;
+}
+
+#checkBoxSkills {
+  background-color: white;
+  color: black;
+}
+
+#skillInput {
+  background-color: white;
+}
+
+#firstname, #lastname{
+    width: 100%;
+    height: 30px;
+    margin: 15px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 22px;
+}
+
+.submitcancel{
+  display: flex;
+}
+
+.projectname, .skillset, .resulto{
+  margin-bottom: 15px;
+}
+
+.resulto label{
+  margin-right: 15px;
+}
+
+.submitcancel button{
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+.submitcancel button#bt1{
+  background-color: #4CAF50; 
+}
+.submitcancel button#bt2{
+  background-color: rgb(223, 49, 18); 
+}
+
+.select {
+  width: 10em;
+  height: 3em;
+  line-height: 3;
+  background: #054497;
+  overflow: hidden;
+  border-radius: .25em;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+button:hover{
+  cursor: pointer;
+}
